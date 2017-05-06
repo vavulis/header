@@ -1,0 +1,35 @@
+.header {
+  padding: 15px 0;
+  background: #500;
+}
+
+.header__content {
+  height: 50px;
+  background: #a34;
+}
+
+.block {
+   line-height: 50px;
+   display: inline-block;
+   vertical-align: top;
+   font-size: 0px;
+}
+
+.logo-block {
+  font-size: 0px;
+}
+
+.fio-block {
+  font-size: 0px;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.fio {
+    font-size: 18px;
+    color: white;  
+    
+    background: #009;
+}
