@@ -21,7 +21,14 @@ html, body {
 }
 
 // For vertical alignment of inline-block's elements
-.inline-block-va {
+.va__container:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: 0.35em;
+}
+.va__item {
     display: inline-block;
     vertical-align: middle;
     margin-left: -0.35em; // Fix bug with space between inline-block's elements

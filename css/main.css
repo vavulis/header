@@ -408,7 +408,14 @@ html, body {
 .clearfix:after {
   clear: both; }
 
-.inline-block-va {
+.va__container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 0.35em; }
+
+.va__item {
   display: inline-block;
   vertical-align: middle;
   margin-left: -0.35em; }
@@ -2787,16 +2794,11 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   padding: 10px 0; }
 
 .header__content {
-  height: 60px; }
-
-.header__content:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle; }
+  height: 60px;
+  min-height: 60px; }
 
 .header__left {
-  width: 50%; }
+  width: 49%; }
 
 .header__right {
   width: 50%;

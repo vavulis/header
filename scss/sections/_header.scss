@@ -6,17 +6,11 @@
 
 .header__content {
     height: $headerContentHeight;
-}
-
-.header__content:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    min-height: $headerContentMinHeight;
 }
 
 .header__left {
-    width: 50%;
+    width: 49%;
 }
 
 .header__right {
