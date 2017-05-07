@@ -408,19 +408,18 @@ html, body {
 .clearfix:after {
   clear: both; }
 
+.va__container {
+  font-size: 0; }
+
 .va__container:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle; }
 
-.va__container:before:first-child {
-  margin-left: 0; }
-
 .va__item {
   display: inline-block;
-  vertical-align: middle;
-  margin-left: -0.35em; }
+  vertical-align: middle; }
 
 ul, li, h1, h2, h3, h4, h5, h6 {
   margin: 0;
