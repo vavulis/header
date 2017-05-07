@@ -2795,6 +2795,13 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   height: 100%;
   vertical-align: middle; }
 
+.header__left {
+  width: 50%; }
+
+.header__right {
+  width: 50%;
+  text-align: right; }
+
 .logo__img {
   width: 56px;
   height: 56px;
