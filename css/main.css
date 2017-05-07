@@ -412,8 +412,10 @@ html, body {
   content: '';
   display: inline-block;
   height: 100%;
-  vertical-align: middle;
-  margin-left: 0.35em; }
+  vertical-align: middle; }
+
+.va__container:before:first-child {
+  margin-left: 0; }
 
 .va__item {
   display: inline-block;
@@ -2798,7 +2800,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   min-height: 60px; }
 
 .header__left {
-  width: 49%; }
+  width: 50%; }
 
 .header__right {
   width: 50%;

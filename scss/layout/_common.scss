@@ -26,7 +26,9 @@ html, body {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
-    margin-left: 0.35em;
+}
+.va__container:before:first-child{
+    margin-left: 0;
 }
 .va__item {
     display: inline-block;
