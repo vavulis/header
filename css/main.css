@@ -2818,7 +2818,18 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .header__menu-item {
   display: inline-block;
-  list-style: none; }
+  list-style: none;
+  font-size: 14px; }
 
 .header__menu-link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #414141;
+  text-transform: uppercase;
+  font-family: 'fira_sansbold', Verdana;
+  margin-right: 15px; }
+
+.header__menu-link:hover {
+  color: #e85f61; }
+
+.header__menu--active {
+  color: #33c1e3; }

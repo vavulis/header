@@ -44,8 +44,21 @@
 .header__menu-item {
     display: inline-block;
     list-style: none;
+    font-size: 14px;
 }
 
 .header__menu-link {
     text-decoration: none;
+    color: $darkgrey;
+    text-transform: uppercase;
+    font-family: 'fira_sansbold', Verdana;
+    margin-right: 15px;
+}
+
+.header__menu-link:hover {
+    color: $red;
+}
+
+.header__menu--active {
+    color: $blue;
 }
